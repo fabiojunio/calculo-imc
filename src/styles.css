@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: capitalize;
+  color: #666;
+}
+
+.text {
+  text-align: justify;
+  padding: 3%;
+}
+
+.container {
+  background-color: rgba(232, 232, 238, 0.699);
+  border: 1px solid gray;
+  border: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 0 3px rgba(213, 218, 223, 0.5);
+}
+
+.btn-start {
+  background-color: rgba(79, 79, 201, 0.692);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  padding: 2%;
+  box-shadow: 1px 2px 3px #666;
+}
+
+.input-imc {
+  box-shadow: 1px 2px 3px #666;
+  border: none;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 4px;
+  outline: 0;
+}
+
+.input-imc:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(221, 229, 238, 0.5);
+}
+
+.btn-start:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(114, 85, 180, 0.5);
+}
